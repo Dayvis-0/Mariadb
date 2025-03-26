@@ -1,0 +1,1 @@
+CREATE DATABASE DB_prueba1; /* Crear una nueva base de datos en el servidor */ 
