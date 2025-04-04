@@ -1,4 +1,4 @@
-CREATE TABLE tb_prueba (
+db_aprendizajeCREATE TABLE tb_prueba (
 	codigo INT,
 	descripcion VARCHAR(30)
 );

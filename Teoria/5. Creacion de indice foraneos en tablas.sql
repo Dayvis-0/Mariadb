@@ -8,3 +8,9 @@ ADD CONSTRAINT - Agregar restriccion | FOREIGN KEY - clave foranea en columna | 
 ALTER TABLE tb_articulos ADD CONSTRAINT fk_codi1 FOREIGN KEY (codigo_um) REFERENCES tb_unidades_medida(codigo_um);
 
 ALTER TABLE tb_articulos ADD CONSTRAINT fk_codi2 FOREIGN KEY (codigo_ca) REFERENCES tb_categoria(codigo_ca);
+
+RENAME TABLE tb_unidades TO tb_unidades_medida;
+
+SHOW CREATE TABLE tb_articulos;
+SHOW CREATE TABLE tb_unidades_medida;
+SHOW CREATE TABLE tb_categoria;
