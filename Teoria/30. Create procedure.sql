@@ -21,7 +21,7 @@ CALL listado_categorias;
 
 SELECT * FROM tb_articulos;
 
--- No sale error y es a sintaxis correcta
+-- No sale error y es la sintaxis correcta
 DELIMITER //
 	CREATE PROCEDURE listado_categorias()
 	BEGIN 
